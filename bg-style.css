@@ -1,0 +1,281 @@
+/* --------------- background shapes--------------- */
+
+.line1 {
+    font-size: 4.5rem;
+    color: #FFD15C;
+    transform: rotate(50deg);
+    margin-top: 600px;
+    margin-left: -400px;
+
+}
+
+/* --------------------------------------- */
+
+
+.round {
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0px)
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0px)
+    }
+}
+
+.roundSquare1 {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background: linear-gradient(#f7f8f8, #30dfc4);
+    border-radius: 25%;
+    top: 330px;
+    right: 650px;
+    animation: rsqMove1 2.5s ease, move 3s linear 2s infinite;
+}
+
+@keyframes rsqMove1 {
+    0% {
+        opacity: 0;
+        transform: translate(100px, 0px) rotate(90deg);
+        position: relative;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.roundSquare2 {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background: linear-gradient(#f7f8f8, #30dfc4);
+    border-radius: 25%;
+    top: 530px;
+    right: 250px;
+    animation: rsqMove2 2.5s ease, move 3s linear 2s infinite;
+}
+
+@keyframes rsqMove2 {
+    0% {
+        opacity: 0;
+        transform: translate(-200px, -70px) rotate(90deg);
+        position: relative;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.round1 {
+    background: linear-gradient(#f49a9a, #ff1f01);
+    top: 300px;
+    right: 250px;
+    animation: circleMove1 2.5s ease, move 3s linear 2s infinite;
+}
+
+@keyframes circleMove1 {
+    0% {
+        opacity: 0;
+        transform: translate(-100px, 75px) rotate(90deg);
+        position: relative;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.round2 {
+    background: linear-gradient(#f49a9a, #ff1f01);
+    top: 620px;
+    right: 570px;
+    animation: circleMove2 2.5s ease, move 3s linear 2s infinite;
+}
+
+@keyframes circleMove2 {
+    0% {
+        opacity: 0;
+        transform: translate(150px, -150px) rotate(90deg);
+        position: relative;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* -------------------------------------------------------- */
+.roundline1 {
+    position: absolute;
+    font-size: 2.7rem;
+    color: #eeef20;
+    top: 420px;
+    right: 300px;
+    animation: rLineMove1 2.5s ease, move 3s linear 2s infinite;
+
+}
+
+@keyframes rLineMove1 {
+    0% {
+        opacity: 0;
+        transform: translate(-50px, 0px) rotate(90deg);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.roundline2 {
+    position: absolute;
+    font-size: 2.7rem;
+    color: #eeef20;
+    top: 570px;
+    right: 450px;
+    animation: rLineMove2 2.5s ease, move 3s linear 2s infinite;
+}
+
+@keyframes rLineMove2 {
+    0% {
+        opacity: 0;
+        transform: translate(0px, -70px) rotate(90deg);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.roundline3 {
+    position: absolute;
+    font-size: 2.7rem;
+    color: #eeef20;
+    top: 200px;
+    right: 620px;
+    animation: rLineMove3 2.5s ease, move 3s linear 2s infinite;
+}
+
+@keyframes rLineMove3 {
+    0% {
+        opacity: 0;
+        transform: translate(70px, 70px) rotate(90deg);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.squareline1 {
+    position: absolute;
+    font-size: 4.3rem;
+    color: #eeef20;
+    top: 490px;
+    right: 650px;
+    animation: sLineMove1 2.5s ease, move 3s linear 2s infinite;
+}
+
+@keyframes sLineMove1 {
+    0% {
+        opacity: 0;
+        transform: translate(100px, -20px) rotate(90deg);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.squareline2 {
+    position: absolute;
+    font-size: 4.3rem;
+    color: #eeef20;
+    top: 160px;
+    right: 350px;
+    animation: sLineMove2 2.5s ease, move 3s linear 2s infinite;
+}
+
+@keyframes sLineMove2 {
+    0% {
+        opacity: 0;
+        transform: translate(-50px, 50px) rotate(90deg);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* ---------------------------------------------------- */
+
+.doubleRound1 {
+    position: absolute;
+    font-size: 5rem;
+    color: #eaed5c;
+    top: 100px;
+    right: -30px;
+}
+
+.dashSq1 {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    transform: rotate(230deg);
+    font-size: 5rem;
+    color: #fb8500;
+}
+
+.dashSq2 {
+    bottom: -350px;
+    right: 0px;
+    transform: rotate(230deg);
+    position: absolute;
+    font-size: 5rem;
+    color: #69ddff;
+}
+
+.tri1 {
+    left: 0px;
+    transform: rotate(70deg);
+    position: absolute;
+    font-size: 5rem;
+    color: #cdc1ff;
+}
+
+.tri3 {
+    top: 0px;
+    left: 600px;
+    transform: rotate(150deg);
+    position: absolute;
+    font-size: 5rem;
+    color: #cdc1ff;
+}
+
+.tri2 {
+    bottom: 10px;
+    transform: rotate(300deg);
+    right: 0px;
+    position: absolute;
+    font-size: 5rem;
+    color: #cdc1ff;
+}

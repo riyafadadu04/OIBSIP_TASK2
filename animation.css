@@ -1,0 +1,389 @@
+/* ----------------------------------------------- */
+.bitmoji:hover {
+    filter: drop-shadow(10px 10px 7px #faf8f8);
+    -webkit-filter: drop-shadow(10px 10px 7px #fefefe);
+}
+
+.bitmoji.active {
+    animation: bitAni 2s linear;
+}
+
+@keyframes bitAni {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* ---------------- home section -------------- */
+
+#nav a:hover {
+    text-decoration: underline;
+    color: #c9ada7;
+}
+
+.typing {
+    width: 13ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.Hbtn1:hover {
+    box-shadow: 0px 5px 15px #c9ada7;
+    /* horiz vertic blur color*/
+}
+
+.Hbtn2:hover {
+    box-shadow: 0px 5px 15px #eaed5c;
+}
+
+.text.active {
+    animation: textAni 3s ease-out;
+}
+
+@keyframes textAni {
+    from {
+        transform: translateX(50px);
+
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+/* ----------------- about section - range ------------------ */
+.range1.active {
+    width: 450px;
+    height: 6px;
+    background: #eaed5c;
+    animation: range1Ani 2s linear;
+}
+
+@keyframes range1Ani {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 450px;
+    }
+}
+
+.range2.active {
+    width: 425px;
+    height: 6px;
+    background: #eaed5c;
+    animation: range2Ani 2s linear;
+}
+
+@keyframes range2Ani {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 425px;
+    }
+}
+
+.range3.active {
+    width: 400px;
+    height: 6px;
+    background: #eaed5c;
+    animation: range3Ani 2s linear;
+}
+
+@keyframes range3Ani {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 400px;
+    }
+}
+
+.range4.active {
+    width: 425px;
+    height: 6px;
+    background: #eaed5c;
+    animation: range4Ani 2s linear;
+}
+
+@keyframes range4Ani {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 425px;
+    }
+}
+
+
+
+/* ----------------- about section - logo ------------------ */
+
+.logo {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    opacity: 0;
+    animation: logoAni 3s linear infinite;
+}
+
+.html {
+    top: -290px;
+    left: 230px;
+}
+
+.skill-img:hover .html {
+    animation: htmlAni 1s linear;
+    opacity: 1;
+}
+
+@keyframes htmlAni {
+    0% {
+        opacity: 0;
+        transform: translate(100px, 10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+
+.css {
+    top: -100px;
+    left: 300px;
+}
+
+.skill-img:hover .css {
+    animation: cssAni 1s linear;
+    opacity: 1;
+}
+
+@keyframes cssAni {
+    0% {
+        opacity: 0;
+        transform: translate(100px, -5px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.js {
+    top: -420px;
+    left: 270px;
+}
+
+.skill-img:hover .js {
+    animation: jsAni 1s linear;
+    opacity: 1;
+}
+
+@keyframes jsAni {
+    0% {
+        opacity: 0;
+        transform: translate(50px, 50px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.php {
+    top: -450px;
+    left: 150px;
+}
+
+.skill-img:hover .php {
+    animation: phpAni 1s linear;
+    opacity: 1;
+}
+
+@keyframes phpAni {
+    0% {
+        opacity: 0;
+        transform: translate(-0px, 50px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.android {
+    top: -370px;
+    left: 390px;
+}
+
+.skill-img:hover .android {
+    animation: androidAni 1s linear;
+    opacity: 1;
+}
+
+@keyframes androidAni {
+    0% {
+        opacity: 0;
+        transform: translate(-30px, 80px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.ios {
+    top: -200px;
+    left: 520px;
+}
+
+.skill-img:hover .ios {
+    animation: iosAni 1s linear;
+    opacity: 1;
+}
+
+@keyframes iosAni {
+    0% {
+        opacity: 0;
+        transform: translate(-100px, 0px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.react {
+    top: -30px;
+    left: 600px;
+}
+
+.skill-img:hover .react {
+    animation: reactAni 1s linear;
+    opacity: 1;
+}
+
+@keyframes reactAni {
+    0% {
+        opacity: 0;
+        transform: translate(-50px, -50px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.github {
+    top: 20px;
+    left: 180px;
+    width: 50px;
+    height: 50px;
+}
+
+.skill-img:hover .github {
+    animation: githubAni 1s linear;
+    opacity: 1;
+}
+
+@keyframes githubAni {
+    0% {
+        opacity: 0;
+        transform: translate(30px, -70px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.angular {
+    top: 40px;
+    left: 100px;
+}
+
+.skill-img:hover .angular {
+    animation: angularAni 1s linear;
+    opacity: 1;
+}
+
+@keyframes angularAni {
+    0% {
+        opacity: 0;
+        transform: translate(0px, -100px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.orbit {
+    margin-left: -600px;
+    margin-top: 30px;
+}
+
+
+/* ----------------- project section ---------------- */
+
+#projects img:hover {
+    opacity: 30%;
+    box-shadow: 5px 5px 15px #f2e9e4;
+}
+
+.col1:hover .proj-Details {
+    opacity: 1;
+}
+
+.View-all a:hover {
+    text-shadow: 1px 1px #fff;
+}
+
+/* --------------- footer section --------------------- */
+
+footer i.active {
+    animation: iconAni 2s linear;
+}
+
+@keyframes iconAni {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateZ(20px);
+    }
+}
+
+footer i:hover {
+    color: #c9ada7;
+}
